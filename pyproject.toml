@@ -1,0 +1,13 @@
+[project]
+name = "tcc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "marker-pdf[full]>=1.10.1",
+    "pymupdf==1.23.21",
+    "pypandoc>=1.15",
+    "reportlab>=5.0.1",
+    "spacy>=3.8.7",
+]

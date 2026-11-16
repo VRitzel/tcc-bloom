@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+
+# saída de execução, apagada a cada run
+files/
+
+# materiais de terceiros usados como entrada
+samples/
+
+# documento do TCC
+*.docx
+
+# artefatos da validação
+candidatos.json
+candidatos.txt
+fragmentos_escolhidos.json
+classificacao_ferramenta*.csv
+anexo_fragmentos.txt
+anexo_etapa2_fragmentos.pdf
+resultados.json
+antes.txt
+depois.txt
+
+# referência local do teste de regressão e anotações de contexto
+baseline.txt
+contexto.md
+contexto_diagramas.mdverificar_versao.py
